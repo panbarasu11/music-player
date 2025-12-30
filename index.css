@@ -18,7 +18,6 @@ body {
   width: 100vw;
 }
 
-/* Sidebar */
 #menu {
   width: 250px;
   background: var(--sidebar-color);
@@ -68,13 +67,12 @@ body {
   color: white;
 }
 
-/* Main Content */
 .main-content {
   flex: 1;
   padding: 30px;
   overflow-y: auto;
   background: white;
-  padding-bottom: 100px; /* Space for player */
+  padding-bottom: 100px;
 }
 
 .search-bar {
